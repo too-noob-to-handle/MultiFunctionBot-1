@@ -31,7 +31,6 @@ class ENV_VARS(object):
     Sharerpw_laravel = os.environ.get("Sharerpw_laravel")
     EMILY_API_URL = os.environ.get("EMILY_API_URL", "https://emily-api.fly.dev/api")
     UPTOBOX_TOKEN = os.environ.get("UPTOBOX_TOKEN")
-    LANGUAGE = os.environ.get("LANGUAGE", "EN")
     AUTH_USER = int(os.environ.get("AUTH_USER", 0))
     MAX_MESSAGE_LENGTH = int(os.environ.get("MAX_MESSAGE_LENGTH", 4096))
 
@@ -67,4 +66,6 @@ class CMD(object):
     PSAM = ["psa", f"psa@{handler}"]
     INDX = ["index", f"index@{handler}"]
     FLCY = ["filecrypt", f"filecrypt@{handler}"]
+    MGNT = ["magnet", f"magnet@{handler}"]
+    SCRP = ["scrape", f"scrape@{handler}"]
     GDFS = ["gd", f"gd@{handler}"]
