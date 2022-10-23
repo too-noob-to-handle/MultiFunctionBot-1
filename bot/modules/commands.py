@@ -97,7 +97,7 @@ async def help(bot, update):
     tuv += "\n• <i>Use /magnet to Extract Magnets from Torrent Websites</i>"
     tuv += "\n• <i>Use /shorten to get Shortened Version of your URLs</i>"
     tuv += "\n• <i>Use /index to extract Direct Links from Bhadoo Index Folder URLs (which do not have any kind of Protection)</i>"
-    # tuv += "\n• <i>Use /psa to Extract Download Links from psa.pm URLs</i>"
+    tuv += "\n• <i>Use /psa to Extract Download Links from psa.pm URLs</i>"
     tuv += "\n• <i>Use /filecrypt to Extract Download Links from FileCrypt URLs</i>"
     tuv += "\n• <i>Use /scrape to Extract Direct Links from Supported Sites</i>"
     tuv += "\n• <i>Use /gd to extract GDrive Links from GDTot, AniDrive, DriveRoot, DriveFlix, IndiDrive, DriveHub, AppDrive, DriveApp, DriveAce, GdFlix, DriveLinks, DriveBit, DriveSharer, DrivePro, HubDrive, KatDrive, Kolop, DriveFire, DriveBuzz, GaDrive, JioDrive, Sharer.pw, Drivehubs.xyz & Pahe</i>"
