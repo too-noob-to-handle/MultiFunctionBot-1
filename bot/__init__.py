@@ -13,6 +13,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 load_dotenv("config.env", override=True)
 
+
 class ENV_VARS(object):
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
