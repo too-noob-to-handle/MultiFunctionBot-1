@@ -2,6 +2,7 @@ import logging
 import os
 
 import telegram.ext as tg
+from dotenv import load_dotenv
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -9,6 +10,8 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
+
+load_dotenv("config.env", override=True)
 
 
 class ENV_VARS(object):
